@@ -22,5 +22,5 @@ Day3:
 
 I also now have a better understanding of the different type of supervised learning problems (Classification and Regression) and when to apply which
 
-Notebook: 
+Notebook: https://github.com/Parpiechulla/-66DaysOfData/blob/main/Predictive%20analysis%20using%20KNeighborsClassifier.ipynb
 Other resource: http://noracook.io/Books/Python/introductiontomachinelearningwithpython.pdf
