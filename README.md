@@ -15,3 +15,12 @@ Other resources: https://lnkd.in/gEvq-jv
 #machinelearning #datascience #66daysofdata
 
 
+
+Day3: 
+- Finished the first chapter of the book from Day2. 
+- built a simple model using "KNearestNeighborsClassifier.
+
+I also now have a better understanding of the different type of supervised learning problems (Classification and Regression) and when to apply which
+
+Notebook: 
+Other resource: http://noracook.io/Books/Python/introductiontomachinelearningwithpython.pdf
