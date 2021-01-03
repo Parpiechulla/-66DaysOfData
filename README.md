@@ -3,3 +3,15 @@ Today I picked up from where I stopped on Kaggle courses and learnt how to use p
 #66daysofdata #MachineLearning #DataScience
 
 Course material: https://www.kaggle.com/alexisbcook/pipelines
+Notebook: https://github.com/Parpiechulla/-66DaysOfData/blob/main/Pipeline%20tutorial.ipynb
+
+
+
+DAY2:
+Today I finished the 5th lesson of the kaggle intermediate machine learning course on cross-validation as a better measure for model performance. I don’t have a full hang of it yet so I picked up this book to improve my ML foundation, it’s looking like it’s going to be a good read 😃.
+
+Course Link: https://lnkd.in/gDFDWHz
+Other resources: https://lnkd.in/gEvq-jv
+#machinelearning #datascience #66daysofdata
+
+
