@@ -1,0 +1,33 @@
+def get_info_block(url):
+    
+    result = requests.get(url)
+    soup = bs4.BeautifulSoup(result.content, "lxml")
+    box = soup.find(class_="infobox vevent")
+    info_rows = box.find_all("tr")
+    
+    for row in info_rows:
+        table_data = row.find_all("td")
+    
+    def get_row_info(table_data):
+        
+        if table_data.find("ul"):
+            for li in table_data.find_all("ul"):
+                text = [li.get_text().replace("\xa0", " ")]
+                for string in text:
+                    new_text = string.split("\n")
+                return new_text
+        else: 
+            return table_data.get_text().replace("\xa0", " ")
+    
+    movie_info = {}
+    for index,row in enumerate(info_rows):
+        if index == 0:
+            movie_info["title"] = row.find("th").get_text(" ", strip=True)
+        elif index == 1:
+            pass 
+        else: 
+            table_key = row.find("th").get_text(" ", strip=True)
+            table_value = get_row_info(row.find("td"))
+            movie_info[table_key] = table_value
+    
+    return movie_info
